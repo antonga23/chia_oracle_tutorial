@@ -1,0 +1,9 @@
+(mod (PUBKEY ORACLE_PUZHASH number)
+     (include condition_codes.clib)
+
+     (list
+      (list ASSERT_PUZZLE_ANNOUNCEMENT ORACLE_PUZHASH number)
+      (list AGG_SIG_ME PUBKEY number)
+     )
+
+)
